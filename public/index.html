@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback_page</title>
+    <link rel="stylesheet" href="styles/feedbackcss.css">
+    <link rel="icon" type="image/png" href="styles/content/feedbackicon.webp">
+    
+</head>
+<body>
+   
+    
+    <div class="front_page">  
+    <header>
+        <div class="logo"><h2>Feedback</h2></div>
+        <div class="menu_bar"><button id="b2" onclick="show()">Menu</button></div>
+    </header>
+    <div id="slide">
+        
+        <img src="return.png" height="30px" onclick="show()">
+        <a href="blog.html">BLOG</a>
+        <a href="#">Group Chat</a>
+        <a href="#">resume</a>
+        <a href="#">feedback</a>
+    </div>
+    </div>
+    <br>
+    <div class="tab">
+<form action="styles/submit.php" method="get">
+    <h1>Feedback Here</h1>
+    
+    <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="phone_no">Phone no:</label><br>
+        <input type="number" id="phone_no" name="phone_no" required><br><br>
+        <label for="address">Message:</label><br>
+        <textarea name="Message" id="Message" required></textarea>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value=""></option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">others</option>
+        </select><br><br>
+        <button type="submit" id="b1">SUBMIT</button>
+</form>
+    </div>
+    <script src="susaj.js"></script>
+</body>
+</html>

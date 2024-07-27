@@ -1,0 +1,101 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
+
+.logo {
+
+    text-align: center;
+}
+
+.menu_bar {
+    position: absolute;
+    right: 10px ;
+    top: 25px;    
+}
+
+.main {
+    padding: 20px;
+}
+
+.tab {
+    text-align: center;
+    border: 1px solid black;
+    width: 250px;
+    height: 390px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#b1{
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#b2{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#b2:hover{
+    color: black;
+    background-color: white;
+}
+#slide{
+    height: 100%;
+    width: 200px;
+    padding: 10px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+flex-direction: column;
+    transition: width 0.3s ease-in-out;
+
+}
+#slide a{
+     color: white;
+     text-decoration: none;
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+#slide img{
+    background-color: black;
+    border: 1px solid black;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    cursor: pointer;
+}
+#slide img:hover{
+    background-color: white;
+    
+}
+#slide a:hover{
+    background-color: white;
+    color: black;
+    
+}
